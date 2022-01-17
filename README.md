@@ -25,7 +25,7 @@ If you realize that you are unable to meet some requirements by the submission d
 
 **If you want an extension, you must request it via email - not Discord - before the submission deadline.** Something along the lines of "I'd like an extension" is perfectly fine.
 
-Your first extension request of the semester is "free"; subsequent requests will start to drag your karma down - the more extensions you request, the faster the drop.
+For milestone 1, since I don't have a full picture of the karma situation - yet - you can ignore the usual rules regarding karma and extensions; this will not be the case for milestones 2 onward.
 
 
 ## Milestones
