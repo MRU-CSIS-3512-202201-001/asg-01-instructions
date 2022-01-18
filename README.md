@@ -11,7 +11,7 @@ You can look at the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf) to
 Here's how I will **mark** your stuff - once you know that, you'll understand there isn't really a submission process like you have for other courses:
 
 1. When I begin my marking journey, I'll clone the last commit to the `main` branch made before the due date/time. This means you can continue pushing commits to your `main` after the deadline - I just won't be marking those.
-2. I'll open up the `marking-walkthrough.md` document and use that to mark the submission.
+2. I'll open up the associated "marking-walkthrough" document (for example `marking-walkthrough-01.md` for milestone 1) and use that to mark the submission.
 3. As I mark the submission, I will use the Feedback pull request to provide feedback on the code I see. You should get automated emails for each one of these.
 4. When done marking, I'll put a comment summarizing the results and your mark into the Feedback pull request as well. You should get an automated email for this as well.
 
@@ -33,7 +33,7 @@ For milestone 1, since I don't have a full picture of the karma situation - yet 
 _All milestones are due at 9:00 PM._
 
 |           milestone            |  due   | weight (%) |
-| :----------------------------: | :----: | :--------: |
+|:------------------------------:|:------:|:----------:|
 | [milestone 1](milestone-01.md) | Jan 19 |     2      |
 | [milestone 2](milestone-02.md) | Jan 26 |     2      |
 | [milestone 3](milestone-03.md) | Feb 02 |     2      |
