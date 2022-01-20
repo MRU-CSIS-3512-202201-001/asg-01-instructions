@@ -32,7 +32,8 @@ For a section to be considered "complete", **ALL** requirements **in** that sect
 |        RS1 - RS4         | Level 1     |       25%       |
 |        RS1 - RS5         | Level 3     |       65%       |
 |        RS1 - RS6         | Level 4     |       75%       |
-|        RS1 - RS7         | Level 6     |       98%       |
+|     RS1 - RS7 (good)     | Level 5     |       88%       |
+|        RS1 - RS7 (excellent)         | Level 6     |       98%       |
 
 _Yes, there are gaps in the levels shown. That'll happen for some milestones._  
 
