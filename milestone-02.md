@@ -6,6 +6,12 @@
 
 **Content in this milestone document takes precedence over anything you read in the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf) and previous milestones.**
 
+## Don't Get Burned (Again)
+
+As was apparent from milestone 1, marking for these milestones is different from what you're used to.
+
+I suggest looking at the marking scheme as a ladder: each grade level is a rung on the ladder. You don't get to the next level unless **ALL** requirements between your current level and the next are complete. So start with the "bottom" requirements and do them, one-by-one, **checking your work carefully as you proceed**, before going to the "upper" ones. Avoid skipping requirements - but if you need to do that for some reason, for heaven's sake remember to go back as soon as you can and complete them.
+
 ## Overview
 
 This second milestone is meant to push you into a (possibly temporary!) visual design for the important Default View, as well as get you to wrassle with some movie objects.
@@ -24,13 +30,13 @@ As with the first milestone, your mark will depend on which requirements section
 
 _I won't repeat any of the commentary from last milestone in this section - it's the same and won't change for the other milestones. What **will** be different will be the grade levels involved, so that gets to stay._
 
-| Completed Req's Sections | Grade Level | Corresponding % |
-|:------------------------:|:------------|:---------------:|
-|           None           | Level 0     |       0%        |
-|        RS0 - RS2         | Level 1     |       25%       |
-|        RS0 - RS5         | Level 3     |       65%       |
-|        RS0 - RS6         | Level 5     |       88%       |
-|        RS0 - RS7         | Level 6     |       98%       |
+|   Completed Req's Sections   | Grade Level | Corresponding % |
+| :--------------------------: | :---------- | :-------------: |
+| missing **ANY** of RS0 - RS2 | Level 0     |       0%        |
+|          RS0 - RS2           | Level 1     |       25%       |
+|          RS0 - RS5           | Level 3     |       65%       |
+|          RS0 - RS6           | Level 5     |       88%       |
+|          RS0 - RS7           | Level 6     |       98%       |
 
 ## The Requirements Sections
 
@@ -53,7 +59,7 @@ _I won't repeat any of the commentary from last milestone in this section - it's
 
 - [ ] [7] The GitHub repo contains a modified version of the `.eslintrc.json` file that has added the `"no-var":"warn"` property to the `rules` property present:
 
-    ![modded eslintrc](images/eslint.png)
+    ![modded eslintrc](images/eslint.png) 
 
 - [ ] [8] The GitHub repo contains the `movie-data.json` file from the assignment 1 instructions repo.
 
