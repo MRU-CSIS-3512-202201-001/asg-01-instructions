@@ -34,6 +34,7 @@ _I won't repeat any of the commentary from last milestone in this section - it's
 | :--------------------------: | :---------- | :-------------: |
 | missing **ANY** of RS0 - RS2 | Level 0     |       0%        |
 |          RS0 - RS2           | Level 1     |       25%       |
+|          RS0 - RS4           | Level 2     |       55%       |
 |          RS0 - RS5           | Level 3     |       65%       |
 |          RS0 - RS6           | Level 5     |       88%       |
 |          RS0 - RS7           | Level 6     |       98%       |
