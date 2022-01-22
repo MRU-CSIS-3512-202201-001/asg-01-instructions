@@ -36,8 +36,9 @@ _I won't repeat any of the commentary from last milestone in this section - it's
 |          RS0 - RS2           | Level 1     |       25%       |
 |          RS0 - RS4           | Level 2     |       55%       |
 |          RS0 - RS5           | Level 3     |       65%       |
-|          RS0 - RS6           | Level 5     |       88%       |
-|          RS0 - RS7           | Level 6     |       98%       |
+|       RS0 - RS6 (Fair)       | Level 4     |       75%       |
+|       RS0 - RS6 (Good)       | Level 5     |       88%       |
+|    RS0 - RS6 (Excellent)     | Level 6     |       98%       |
 
 ## The Requirements Sections
 
@@ -129,15 +130,12 @@ There are a number of TODO items in `movieHelpers.js` Each TODO corresponds to a
 
 ---
 
-
-### RS6. responsive design
+### RS6. Visual Design Requirements
 
 - [ ] [25] The `default.html` page has a reasonable layout with no glaring issues at Laptop L size.
-
 - [ ] [26] The `default.html` page has a reasonable layout with no glaring issues at Mobile L size.
-
----
-
-### RS7. Visual Design Requirements
-
 - [ ] [27] The visual design is portfolio-level quality. I'll be looking for generous use of whitespace, alignment of items, contrast of text in size and weight, good use of color (including accents), non-distorted images, etc.
+
+#### Notes
+
+- _I'll evaluate [27] as being one of Fair, Good, or Excellent. This will be purely a subjective thing, I'm afraid. If the level of [27] is not considered at least Fair, that requirement will be considered unmet._
