@@ -85,7 +85,7 @@ _See items 11-13 on pages 6 & 7 of the [assignment pdf](comp-3512-asg-1-winter-2
 
 _As with milestone 2, the focus here is not yet on the functionality of the site, but on laying the groundwork for that functionality._
 
-_DON'T let the illustration in the pdf limit your creative process - your page does NOT have to look like the illustration. As long as the information that must be available IS available, you're meeting the requirements!_
+_DON'T let the illustration in the pdf limit your creative process - your page does NOT have to look like it. As long as the information that must be available IS available, you're meeting the requirements!_
 
 - [ ] [10] The Movie Details View page is a resource named `details.html` that connects to the external JavaScript file `movieHelpers.js`.
 
