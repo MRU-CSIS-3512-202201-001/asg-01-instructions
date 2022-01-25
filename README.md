@@ -25,7 +25,7 @@ If you realize that you are unable to meet some requirements by the submission d
 
 **If you want an extension, you must request it via email - not Discord - before the submission deadline.** Something along the lines of "I'd like an extension" is perfectly fine.
 
-For milestone 1, since I don't have a full picture of the karma situation - yet - you can ignore the usual rules regarding karma and extensions; this will not be the case for milestones 2 onward.
+From milestone 2 onward, karma will be affected by extension requests; the more you ask for, the more quickly karma will drop. The link that was previously in place between karma and the amount of improvement that would be possible for an extension has been removed. (See the course outline for further details if you care.)
 
 
 ## Milestones
