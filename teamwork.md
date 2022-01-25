@@ -4,22 +4,22 @@ I have grouped folks up as described before, respecting the OLPN requests I rece
 
 These groups have been mixed up a bit - just because you're at the top of the list here doesn't mean that you were one of the first to complete milestone 1.
 
-| Team # | Name  | Name  | Name |
-| :----: | ----- | ----- | ---- |
-|   01   | Ramin | Sahir |      |
-|   02   |       |       |      |
-|   03   |       |       |      |
-|   04   |       |       |      |
-|   05   |       |       |      |
-|   06   |       |       |      |
-|   07   |       |       |      |
-|   08   |       |       |      |
-|   09   |       |       |      |
-|   10   |       |       |      |
-|   11   |       |       |      |
-|   12   |       |       |      |
-|   13   |       |       |      |
-|   14   |       |       |      |
+| Team # | Member | Member | Member |
+| :----: | ------ | ------ | :----: |
+|   01   | Ramin  | Sahir  |   -    |
+|   02   |        |        |        |
+|   03   |        |        |        |
+|   04   |        |        |        |
+|   05   |        |        |        |
+|   06   |        |        |        |
+|   07   |        |        |        |
+|   08   |        |        |        |
+|   09   |        |        |        |
+|   10   |        |        |        |
+|   11   |        |        |        |
+|   12   |        |        |        |
+|   13   |        |        |        |
+|   14   |        |        |        |
 
 
 I will send out emails to each pair so that they at least know each other's email address to start with.
