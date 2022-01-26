@@ -2,6 +2,11 @@
 
 More recent questions will be near the top.
 
+#### Q. How do I get the movie posters on the default page?
+
+> _A. Take a boo at item 9 in the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf)._ 
+
+
 #### Q. How do you deploy default.html instead of index.html on Netlify?
 
 > _A. You don't! Your Netlify site always has all the code from your GitHub repository. You need to change the `README.md` file in your repository so that it has a link to the URL of your `default.html` file._ 
