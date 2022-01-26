@@ -1,4 +1,4 @@
-# Assignment 01 - Milestone 03 (WIP - Not Officially Released Yet - 2022-01-25)
+# Assignment 01 - Milestone 03
 
 **Due February 02 (W) @ 9 PM**
 
