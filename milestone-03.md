@@ -51,7 +51,7 @@ As with all milestones, I will use a marking "script" to help me make sure I'm c
 
 _<sup>1</sup> If you get all of R0 done and at least **some** of RS1 **and** RS2 complete, you will get a Level 1 instead of a Level 0. I get to decide what "some" means - but I can tell you it ain't going to be just one or two requirements!_
 
-__
+---
 
 
 ## The Requirements Sections
