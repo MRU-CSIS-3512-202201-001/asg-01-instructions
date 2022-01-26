@@ -2,7 +2,7 @@
 
 _I'm not 100% sure what to call this document. "Marking walkthrough" is good enough for now!_
 
-These are the steps that I will take when he assesses your submission. You can use this to figure out which requirements you've completed.
+These are the steps that I will take when I assess your submission. You can use this to figure out which requirements you've completed.
 
 1. Check that I have an email from the student stating group prefs. [1]
 

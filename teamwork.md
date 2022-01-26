@@ -1,8 +1,10 @@
 # Teamwork
 
-I have grouped folks up as described before, respecting the OLPN requests I received prior to the deadline.
+I have grouped folks up using my Secret Sauce algorithm that takes into account success in milestone 1, progress in milestone 2, marks from the quizzes, karma, current moon phase, and other various astronomical signs and portents. I've also respected any requests NOT to be paired with someone as well as tried to accommodate requests to work with certain people. Whew.
 
-These groups have been mixed up a bit - just because you're at the top of the list here doesn't mean that you were one of the first to complete milestone 1.
+If you have not completed milestones 1 or 2 to any significant degree, I have placed you together in a group.
+
+Each group will receive an email from me so that you know at least your partner's name and email.
 
 | Team # | Member | Member | Member |
 | :----: | ------ | ------ | :----: |
@@ -22,28 +24,7 @@ These groups have been mixed up a bit - just because you're at the top of the li
 |   14   |        |        |        |
 
 
-I will send out emails to each pair so that they at least know each other's email address to start with.
-
 ## Communication
-
-## Trello
-
-## GitHub Habits
-
-- merge conflict hell is a thing. Working together has its benefits for sure, especially in early milestones.
-- Make sure each team member gets opportunities to code up JavaScript. On of your primary goals in this course is to develop skills as a front-end developer and becoming comfortable with JavaScript is a fundamental part of that goal. Don't run away from it - and don't take it away from others by doing all the coding because you like it.
-
-## What If My Team Explodes?
-
-I hope this doesn't happen, but life, eh?
-
-I expect folks to communicate with each other in order to prevent explosions. Lack of communication is one of the fundamental causes of things going south, in my opinion as both a person who has worked on teams as an instructor who has observed other teams at work.
-
-If something happens that makes team members want to split the team, then I will move folks into different teams - or perhaps even have some people work alone. This is not a perfect solution, naturally...but you _do_ realize there _is_ no perfect solution, right?
-
-If that process causes some kind of ghastly ripple effect, well then I'll just have to use my human brain, a dose of firm kindness, and some chatting to come to a solution - just like rational human beans do.
-
-## Some Final Thoughts on Teamwork
 
 I know you folks are upper-year types and have likely been around the teamwork bush a bit. Nevertheless, I have a few things to toss at you to maybe help you at least be aware of some issues that you could address openly at the start of your journey with your teammates. Do NOT MAKE ASSUMPTIONS ABOUT YOUR TEAM MEMBERS - THAT WAY LIES HEARTACHE, SUFFERING, and DISSOLUTION:
 
@@ -55,5 +36,40 @@ I know you folks are upper-year types and have likely been around the teamwork b
 - Are your team members alpha coding wolf types? or do they prefer to be given tasks? And what about **you**?
 - What are your strengths? Your team members'? You all should try to gain experience in both design and development...but focusing on the things you're good at is a prudent idea, too
 - What mark are you shooting for? Does it match the other members' goals? You both should be honest about this - really honest. Getting an A is gonna take some hours, folks!
-- If you plan on doing at least some "code together" work, have you figured out how to do this effectively? will you meet live? or use a tech (I can recommend [VS Code's Live Share extension]https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+- If you plan on doing at least some "code together" work, have you figured out how to do this effectively? will you meet live? or use a tech (I can recommend [VS Code's Live Share extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - Read [this brief pdf](hitchikers1.pdf) (it's actually a very short and easy read!) on "hitchhikers" and "couch potatoes".
+
+## GitHub Projects Feature
+
+There is a "Projects" feature in GitHub repos that is pretty cool and which you might find useful for splitting up and tracking tasks between members.
+
+After I notice that a group has accepted the starting repo, I'll make a starting project for them and populate it with the requirements from the milestone.
+
+I'll make a brief screencast about this and release it as soon as I can.
+
+## Don't Be A Thief!
+
+The heading's bit clickbaity. Sorry. 
+
+One of your primary goals in this course should be developing your skills as a front-end developer. Large projects like this provide ample opportunities to develop those skills. You should have a good idea what your strengths and weaknesses are - so focus on strengthening your weaknesses! If you feel comfortable with visual design but are kinda sketchy at the moment in JS, DON'T DO ALL THE CSS! Instead, make sure you do a lot of JS coding, even if it's outside of your comfort zone. Otherwise, you're not learning - you're stealing opportunities from yourself.
+
+Also, avoid the temptation of taking opportunities away from your teammates because they're (currently) weaker at something than you are. Give them opportunities to grow as well. If you're comfortable coding and say "I'll do all the JS", then you're being a thief here as well, because you're stealing opportunities for improvement from your teammates.
+
+"But the marks!" I hear you cry.
+
+I think if you think about the situation carefully and talk things over with your teammates, you'll find compromises are definitely possible. You can all build your skills AND get a good mark, if you work toward that goal together.
+
+## What If My Team Explodes?
+
+I hope this doesn't happen, but life, eh?
+
+I expect folks to communicate with each other in order to prevent explosions. Lack of communication is one of the fundamental causes of things going south.
+
+If something happens that makes team members want to split the party, the first step is to come to me as soon as possible. Communication with me the day before a milestone is due is useless.
+
+When approached by someone with a request to dissolve a group, we'll have a talk. If I feel the request is warranted, then I will move folks into different teams - or perhaps even have some people work alone. This is not a perfect solution, naturally...but you _do_ realize there _is_ no perfect solution, right?
+
+If that process causes some kind of ghastly ripple effect, well then I'll just have to use my human brain, a dose of firm kindness, and some chatting to come to a solution - just like rational human beans do.
+
+
+
