@@ -6,7 +6,7 @@ These groups have been mixed up a bit - just because you're at the top of the li
 
 | Team # | Member | Member | Member |
 | :----: | ------ | ------ | :----: |
-|   01   | Ramin  | Sahir  |   -    |
+|   01   |        |        |   -    |
 |   02   |        |        |        |
 |   03   |        |        |        |
 |   04   |        |        |        |
