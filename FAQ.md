@@ -10,8 +10,6 @@ More recent questions will be near the top.
 
 > _A. You're sorting an array of movie objects, so the result should be a sorted array of movie objects._ 
 
-> _A. One of the Notes in RS4 says: "To populate the content for the 3 movies you choose, you'll have to dig through the movie-data.json file and do some copy and pasting."_ 
-
 #### Q.  For the 3 movies that are shown in the List/Matches section can they be movies we choose or do they have to be from `movie-data.json`?
 
 > _A. One of the Notes in RS4 says: "To populate the content for the 3 movies you choose, you'll have to dig through the movie-data.json file and do some copy and pasting."_ 
