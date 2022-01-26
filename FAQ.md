@@ -16,7 +16,7 @@ More recent questions will be near the top.
 
 #### Q. For the rating, the slider is it necessary we have the numbers that go along with the sliders?
 
-> _A. Technically, no - but the user of the site will need to know **somehow** what number they're providing. Remember that the diagrams are recommendations and it's certainly ok to do things differently than "what's in the picture" as long as the necessary functionality is there._ 
+> _A. The updating of the numbers will happen via JS, so you can ignore this for now. You'll have this functionality as a requirement on milestone 5. Good catch - and this totally slipped under my radar._ 
 
 #### Q. When I try and put something like `const content = (json stuff in backticks)` VS Code says I have the problem: `Expected a JSON object, array or literal.`
 
