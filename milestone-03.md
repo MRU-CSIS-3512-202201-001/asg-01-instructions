@@ -153,13 +153,13 @@ There are a number of TODO items in `movieHelpers.js` Each TODO corresponds to a
 
 _Fair warning: the code you write here will also need to change going forward. Don't get too emotionally attached to it. If it helps, remember that when you're coding, you're not just producing code - you're also building experience, which is infinitely more valuable._
 
-- [23] An array of movie details, created from `movie-details.json` is present.
+- [ ] [23] An array of movie details, created from `movie-details.json` is present.
 
-- [24] An array of credits, created from `credits.json` is present.
+- [ ] [24] An array of credits, created from `credits.json` is present.
 
-- [25] An array of keywords, created from `keywords.json` is present.
+- [ ] [25] An array of keywords, created from `keywords.json` is present.
 
-- [26] A constructor function called `Movie` is present that has ALL the behaviour described in the associated TODO.
+- [ ] [26] A constructor function called `Movie` is present that has ALL the behaviour described in the associated TODO.
 
 ---
 
