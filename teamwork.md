@@ -65,7 +65,7 @@ There is a "Projects" feature in GitHub repos that is pretty cool and which you 
 
 After I notice that a group has accepted the starting repo, I'll make a starting project for them and populate it with the requirements from the milestone.
 
-I'll make a brief screencast about this and release it as soon as I can.
+Here is a [brief talkthrough](https://watch.screencastify.com/v/EC3pxpYxGMDjQKbBiiCg) [5:19] of how to use this feature.
 
 ## Don't Be A Thief!
 
