@@ -57,7 +57,7 @@ I know you folks are upper-year types and have likely been around the teamwork b
 - What are your strengths? Your team members'? You all should try to gain experience in both design and development...but focusing on the things you're good at is a prudent idea, too. Balance, balance.
 - **What mark are you shooting for?** Does it match the other members' goals? You both should be honest about this - really honest. Getting an A is gonna take some hours, folks!
 - If you plan on doing at least some "code together" work, have you figured out how to do this effectively? will you meet live? or use a tech (I can recommend [VS Code's Live Share extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-- Read [this brief pdf](hitchikers1.pdf) (it's actually a very short and easy read!) on "hitchhikers" and "couch potatoes".
+- Read [this brief pdf](hitchikers.pdf) (it's actually a very short and easy read!) on "hitchhikers" and "couch potatoes".
 
 ## GitHub Projects Feature
 
