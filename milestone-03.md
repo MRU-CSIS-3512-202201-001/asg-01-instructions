@@ -14,7 +14,9 @@ This is the first of four milestones where you will be working with your teammat
 
 ## Viewing the Data
 
-You'll need to dig through some fairly large JSON files (especially `credits.json` - that thing is a **beast!**) to do some of the tasks in this milestone.
+There are some important JSON files in the data folder of the starting repo.
+
+You'll need to dig through these fairly large JSON files (especially `credits.json` - that thing is a **beast!**) to do some of the tasks in this milestone.
 
 In their current state, it's super-hard to figure out what's going on in those files. I strongly recommend viewing them in an online JSON viewing tool to make sense of the seeming chaos. I've tried http://jsonviewer.stack.hu/ and https://jsonformatter.org/json-viewer for this and have been reasonably happy. **Don't try and open up `credits.json` in one of these viewers...there's a reasonable chance it'll cause your browser to burst into flame - use the `credits-brief.json` instead - it's there to give you an easy way to view the structure of the full-sized `credits.json`.**
 
