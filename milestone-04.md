@@ -72,21 +72,15 @@ LOCAL/SESSION storage - you need to look this stuff up on your own
 
 As I adjust to working with requirements marking, I will make changes based on experiences with previous milestones. This is called learning. :)
 
-### RSO. Restrictions
+### RSO. Basic Requirements
 
-_These requirements are all supposed to be very easy to complete - but also fundamental to your success (and to making the marking of your work easier for me). Skipping or being careless with these is a bad idea, because your mark becomes hella-low. None of us want that._
-
-- [ ] [1] The code for your site is located in the GitHub repo created by accepting the GitHub Classroom assignment.
-  
-- [ ] [2] The `README.md` file in the repo contains the names of all team members and a **working** hyperlink to the Netlify URL of the page (`details.html`) you wish me to mark.
+Read these carefully. Do them.
 
 - [ ] [3] The Feedback pull request in the repo has not been closed or merged. 
 
-- [ ] [4] The site is hosted on Netlify. 
-  
-- [ ] [5] Your site is called `comp-3512-w2022-a1-<team>` in Netlify. For example, `comp-3512-w2022-a1-team04`.
+- [ ] [6] There are no movie poster images in your repository.
 
-- [ ] [6] You do NOT have the `movie-data.json` file from milestone 2 in your repo.
+- [ ] [ ] All JavaScript used is present in external files.
 
 #### Notes
 
