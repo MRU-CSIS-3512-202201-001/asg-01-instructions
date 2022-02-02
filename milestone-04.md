@@ -1,46 +1,78 @@
-# Assignment 01 - Milestone 04 (WIP)
+# Assignment 01 - Milestone 04 (WIP - NOT OFFICIALLY RELEASED)
 
 **Due February 09 (W) @ 9 PM**
 
 **Worth 2% of your final grade**
 
 
-**Content in this milestone document takes precedence over anything you read in the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf) and previous milestones.**
+**Content in this milestone document takes precedence over anything you read in the [revised assignment pdf](comp-3512-asg-1-winter-2020-v2.pdf) and previous milestones.**
 
 ## Overview
 
 The fourth and fifth milestones are firmly focused on using JavaScript to get content on the page and to deal with all the different events that can happen when users interact with your pages.
 
-Because of the large number of events you need to deal with, visual design is going to take a back seat in the marking of this and the following milestones. That being said, I will be taking a look at your pages periodically and providing you with feedback that I suggest you act on before the 6th and final milestone!
+Because of the large number of events you need to deal with, visual design is going to take a back seat in the marking of this and the following milestones. That being said, I will be taking a look at your pages periodically and providing you with feedback that I suggest you act on before the final milestone!
+
+## Major Updates to PDF
+
+There have been a lot of changes to the original version of the assignment. You should definitely read it, especially all the orange parts. There are a lot of orange parts.
+
+There will be further changes to this doc over the next few weeks. Welcome to the Desert of Shifting Requirements! Just like when you're dealing with real clients! Yay?
+
+## Things To Put On Your Radar
+
+The following are things that will NOT be involved in your mark for this milestone or milestone 5...but will most definitely be involved in your mark for the final milestone.
+
+I'm just telling you this so you can plan ahead and not be caught off-guard.
+
+### Visual Design
+
+Your final project is expected to have a unified, professional look. Take a look at the  visual design requirements section of [milestone 3](milestone-03.md) to get a feel for how this aspect of your work will be marked on the final milestone.
+
+I will pop onto your sites periodically to nose around and provide comments on what I see. This should give you opportunities to make improvements before the final milestone.
+
+### Code Quality
+
+Functional code is ok - but if you're going to develop code for a living, you can't just focus on making stuff that gets the job done. You also has to create code that is expressive enough to be understood and modified by others (and, humourously, one of those others might be your future self).
+
+Your code should follow [these guidelines](design-guidelines.md) to attain full marks for your final milestone.
+
+I will dig into your repositories periodically to nose around and provide comments on what I see with your code. This should give you opportunities to make improvements before the final milestone.
+
+### Script Organization
+
+You shouldn't have one big-ass (pardon my French) file that holds all the JS for your site - that's just a nightmare for external parties (ahem, me) and yourself to navigate. Also, just having one file guarantees that you're going to enter merge conflict hell when it comes to working together with your teammates in Git.
+
+You will need to have multiple files that hold site scripts to get full marks for the final milestone. You will have to consider how best to divide up your code. For example, you could divide things up by View (so 3 scripts there, 1 for each view). Or maybe divide things up by types of events (filter-related, search related, etc). Or some other way that works for you. Feel free to look for advice online and experiment - just don't put everything in one file. :)
 
 
 ## Your Mark
 
 **Please read this section carefully, as it's quite different than what you've seen in the first 3 milestones!**
 
-
+Your marks this time - and for milestone 5 - will be based mostly on how many [events](events.md) you can get done. (I say "mostly", because there are still a few requirements that you must do.)
 
 ### The Ladder of Marks
-| Completed Req's Sections          | Grade Level | Corresponding % |
-|-----------------------------------|:-----------:|:---------------:|
-| None                              |   Level 0   |       0%        |
-| RS0 + Partial RS1,RS2<sup>1</sup> |   Level 1   |       25%       |
-| RS0 - RS1                         |   Level 2   |       55%       |
-| RS0 - RS2                         |   Level 3   |       65%       |
-| RS0 - RS2 + RS3 is **Fair**       |   Level 4   |       75%       |
-| RS0 - RS2 + RS3 is **Good**       |   Level 5   |       88%       |
-| RS0 - RS2 + RS3 is **Excellent**  |   Level 6   |       98%       |
-
-_<sup>1</sup> If you get all of R0 done and at least **some** of RS1 **and** RS2 complete, you will get a Level 1 instead of a Level 0. I get to decide what "some" means - but I can tell you it ain't going to be just one or two requirements!_
+| What You've Done | Grade Level | Corresponding % |
+| ---------------- | :---------: | :-------------: |
+| RS0 incomplete   |   Level 0   |       0%        |
+| ---              |     ---     |       ---       |
+| RS0 only         |   Level 2   |       55%       |
+| RS0 + 5 events   |   Level 3   |       65%       |
+| RS0 + 10 events  |   Level 4   |       75%       |
+| RS0 + 15 events  |   Level 5   |       88%       |
+| RS0 + 20 events  |   Level 6   |       98%       |
 
 ---
+
+LOCAL/SESSION storage - you need to look this stuff up on your own
 
 
 ## The Requirements Sections
 
 As I adjust to working with requirements marking, I will make changes based on experiences with previous milestones. This is called learning. :)
 
-### RSO. Basic Requirements
+### RSO. Restrictions
 
 _These requirements are all supposed to be very easy to complete - but also fundamental to your success (and to making the marking of your work easier for me). Skipping or being careless with these is a bad idea, because your mark becomes hella-low. None of us want that._
 
