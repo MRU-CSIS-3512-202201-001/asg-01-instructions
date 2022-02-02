@@ -1,4 +1,4 @@
-# Assignment 01 - Milestone 04 (WIP - NOT OFFICIALLY RELEASED)
+# Assignment 01 - Milestone 04
 
 **Due February 09 (W) @ 9 PM**
 
@@ -9,7 +9,7 @@
 
 ## Overview
 
-The fourth and fifth milestones are firmly focused on using JavaScript to get content on the page and to deal with all the different events that can happen when users interact with your pages.
+The fourth and fifth milestones are firmly focused on using JavaScript to get content on the page and to deal with all the different events that can happen when users interact with your Views.
 
 Because of the large number of events you need to deal with, visual design is going to take a back seat in the marking of this and the following milestones. That being said, I will be taking a look at your pages periodically and providing you with feedback that I suggest you act on before the final milestone!
 
@@ -39,11 +39,11 @@ _I noticed a few folks were using tables for layout; the final milestone will NO
 
 ### Code Quality
 
-Functional code is ok - but if you're going to develop code for a living, you can't *just* focus on making stuff that gets the job done. You also have to create code that is expressive enough to be understood and modified by others. Humourously, one of those others might be your future self!
+Functional code is ok - but if you're going to develop code for a living, you can't *just* focus on making stuff that _only_ "gets the job done". You also have to create code that is expressive enough to be understood and modified by others. Humourously, one of those others might be your future self!
 
 Your code should follow [these guidelines](design-guidelines.md) to attain full marks for your final milestone.
 
-I will dig into your repositories periodically to nose around and provide comments on what I see with your code. This should give you opportunities to make improvements before the final milestone.
+I will dig into your repositories periodically to nose around and provide comments on your code. This should give you opportunities to make improvements before the final milestone.
 
 ### Script Organization
 
@@ -74,12 +74,8 @@ Your marks this time - and for milestone 5 - will be based mostly on how many [e
 
 ---
 
-LOCAL/SESSION storage - you need to look this stuff up on your own
-
 
 ## The Requirements Sections
-
-As I adjust to working with requirements marking, I will make changes based on experiences with previous milestones. This is called learning. :)
 
 ### RSO. Basic Requirements
 
@@ -97,20 +93,20 @@ Read these carefully. Do them.
 
 - [ ] [6] All HTML in `index.html` is declared valid by the [W3C Markup Validation Service](https://validator.w3.org/).
 
-- [ ] [7] There is a `displayDefault` function available from the console when `index.html` is visited. Details for the method are discussed [below](#the-displaydefault-function)
+- [ ] [7] There is a `displayDefault` function available from the console when `index.html` is visited. Details for the method are discussed [below](#the-displaydefault-function).
 
 
 
 #### Notes
 
-- _<sup>3</sup> If you don't know what this means, look at Figure 8.4 (p. 357) in the text, or look it up somewhere. 
+- _<sup>3</sup> If you don't know what this means, look at Figure 8.4 (p. 357) in the text, or look it up somewhere._ 
 - _<sup>6</sup> CSS validation is no longer a requirement._
 
 ---
 
 ### The `displayDefault` Function
 
-You and I will both find it useful if there is a way to view the Default View, pre-populated with movies. To that end, you must create a function that allows you (and me) to do that from the console.
+You and I will both find it useful if there is a way to easily see the Default View, pre-populated with movies. To that end, you must create a function that allows you (and me) to do that from the console.
 
 Here are the requirements for this function:
 
@@ -140,11 +136,11 @@ Here are the requirements for this function:
 
 ## Submission Requirements
 
-Since y'all have a ton of flexibility in choosing which events to work on, I need some way for us to easily track what events you've completed so that I can focus on marking those specific things.
+Since y'all have a ton of flexibility in choosing which events to work on, I need some way for us to easily track what events you've completed, so that I can focus on marking those specific things.
 
-To do this, I am requiring groups to use the projects feature of your team's GitHub repo introduced in the [teamwork doc](teamwork.md) when I release milestone 3.
+To do this, I am requiring groups to use the projects feature of your team's GitHub repo introduced in milestone 3 when I released the [teamwork doc](teamwork.md).
 
-You will see that you have an `events` project in your team's GitHub repo shortly before or after the time I release this current milestone. In it, I've placed all the events that a fully-functioning application requires. _There's a reasonable chance that some additional events may be added, though I think I've got most of the ones we need._
+You will see that you have an `events` project in your team's GitHub repo shortly before or after the time I release this current milestone. In it, I've placed all the events that a fully-functioning application requires. _There's a reasonable chance that some additional events may be added later, though I think I've got most of the ones we need._
 
 When your team has completed an event, you should move it to the `Done` column in your project. I will use the events I see in that column when I mark.
 
