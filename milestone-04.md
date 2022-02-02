@@ -15,7 +15,9 @@ Because of the large number of events you need to deal with, visual design is go
 
 ## Major Updates to PDF
 
-There have been a lot of changes to the original version of the assignment. You should definitely read it, especially all the orange parts. There are a lot of orange parts.
+There have been a lot of changes to the original version of the assignment. You should [definitely read it](comp-3512-asg-1-winter-2020-v2.pdf), especially all the orange parts. 
+
+There are a lot of orange parts.
 
 There will be further changes to this doc over the next few weeks. Welcome to the Desert of Shifting Requirements! Just like when you're dealing with real clients! Yay?
 
@@ -31,9 +33,13 @@ Your final project is expected to have a unified, professional look. Take a look
 
 I will pop onto your sites periodically to nose around and provide comments on what I see. This should give you opportunities to make improvements before the final milestone.
 
+**WARNING** 
+
+_I noticed a few folks were using tables for layout; the final milestone will NOT allow this, so make sure you use the time effectively over these next few weeks to remove any trace of tables from your `index.html`._
+
 ### Code Quality
 
-Functional code is ok - but if you're going to develop code for a living, you can't just focus on making stuff that gets the job done. You also has to create code that is expressive enough to be understood and modified by others (and, humourously, one of those others might be your future self).
+Functional code is ok - but if you're going to develop code for a living, you can't *just* focus on making stuff that gets the job done. You also have to create code that is expressive enough to be understood and modified by others. Humourously, one of those others might be your future self!
 
 Your code should follow [these guidelines](design-guidelines.md) to attain full marks for your final milestone.
 
@@ -45,23 +51,26 @@ You shouldn't have one big-ass (pardon my French) file that holds all the JS for
 
 You will need to have multiple files that hold site scripts to get full marks for the final milestone. You will have to consider how best to divide up your code. For example, you could divide things up by View (so 3 scripts there, 1 for each view). Or maybe divide things up by types of events (filter-related, search related, etc). Or some other way that works for you. Feel free to look for advice online and experiment - just don't put everything in one file. :)
 
+### TMDB Attribution
+
+Milestone 6 will have us pulling in info from the TMDB API and I want to make sure we're following the [guidelines for attribution that TMDB has laid out](https://www.themoviedb.org/about/logos-attribution). This means that you should be prepared to add their logo and a brief attribution notice on your Default and Details Views somewhere by milestone 6.
 
 ## Your Mark
 
 **Please read this section carefully, as it's quite different than what you've seen in the first 3 milestones!**
 
-Your marks this time - and for milestone 5 - will be based mostly on how many [events](events.md) you can get done. (I say "mostly", because there are still a few requirements that you must do.)
+Your marks this time - and for milestone 5 - will be based mostly on how many [events](events.md) you can get done. (I say "mostly", because there are still a few "regular" requirements that you must do.)
 
 ### The Ladder of Marks
-| What You've Done | Grade Level | Corresponding % |
-| ---------------- | :---------: | :-------------: |
-| RS0 incomplete   |   Level 0   |       0%        |
-| ---              |     ---     |       ---       |
-| RS0 only         |   Level 2   |       55%       |
-| RS0 + 5 events   |   Level 3   |       65%       |
-| RS0 + 10 events  |   Level 4   |       75%       |
-| RS0 + 15 events  |   Level 5   |       88%       |
-| RS0 + 20 events  |   Level 6   |       98%       |
+| What You've Done          | Grade Level | Corresponding % |
+|---------------------------|:-----------:|:---------------:|
+| RS0 incomplete            |   Level 0   |       0%        |
+| ---                       |     ---     |       ---       |
+| RS0 + fewer than 5 events |   Level 2   |       55%       |
+| RS0 + 5 events            |   Level 3   |       65%       |
+| RS0 + 10 events           |   Level 4   |       75%       |
+| RS0 + 15 events           |   Level 5   |       88%       |
+| RS0 + 20 events           |   Level 6   |       98%       |
 
 ---
 
@@ -76,96 +85,69 @@ As I adjust to working with requirements marking, I will make changes based on e
 
 Read these carefully. Do them.
 
-- [ ] [3] The Feedback pull request in the repo has not been closed or merged. 
+- [ ] [1] The Feedback pull request in the repo has not been closed or merged. 
 
-- [ ] [6] There are no movie poster images in your repository.
+- [ ] [2] There are no movie poster images in your repository.
 
-- [ ] [ ] All JavaScript used is present in external files.
+- [ ] [3] All JavaScript used is present in external files. **This means NO embedded or inline JS is present.**
 
-#### Notes
+- [ ] [4] The **only** html present in your repository is `index.html`.
 
-- _<sup>2</sup> Meaning I should be able to click on the link and go to THAT page!_
-- _<sup>4</sup> You can choose one team member's Netlify account to be the source of the site, or even create a shared Netlify account for that purpose. Whatever works - I just want a working site to look at!_
-- _<sup>5</sup> Notice that the site name has changed!_
-- _<sup>6</sup> This will break your JS code from milestone 2 - but shouldn't be in this milestone anyway. I warned you that this kind of thing was gonna happen!_
+- [ ] [5] The `innerHTML` property is not used in any of your JS files.
 
----
+- [ ] [6] All HTML in `index.html` is declared valid by the [W3C Markup Validation Service](https://validator.w3.org/).
 
-### RS1. Movie Details View Requirements
+- [ ] [7] There is a `displayDefault` function available from the console when `index.html` is visited. Details for the method are discussed [below](#the-displaydefault-function)
 
-_See items 11-13 of the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf) to get a feel for where you're eventually heading._
 
-_As with milestone 2, the focus here is not yet on the functionality of the site, but on laying the groundwork for that functionality._
-
-_DON'T let the illustration in the pdf limit your creative process - your page does NOT have to look like it. As long as the information that must be available IS available, you're meeting the requirements!_
-
-- [ ] [7] The Movie Details View page is a resource named `details.html` that connects to the external JavaScript file `movieHelpers.js`.
-
-- [ ] [8] There is a header with the text `COMP 3512 Assignment 1`.
-
-- [ ] [9] The movie displayed on this page is taken from one of the movies in the data provided to you.
-
-- [ ] [10] The movie title is clearly visible.
-
-- [ ] [11] The poster for the movie is clearly visible and is shown at w185 size at mobile L and w342 size at laptop L.
-
-- [ ] [12] The cast of the movie is clearly visible when this page first loads.
-
-- [ ] [13] Each cast member has their name and character name clearly visible.
-
-- [ ] [14] The cast of the movie is ordered by the `order` field, ascending.
-
-- [ ] [15] There is an obvious way to view the crew of the movie.
-
-- [ ] [16] When the crew is viewed, each crew member has their name, department, and job clearly visible.
-
-- [ ] [17] The crew of the movie is ordered alphabetically, first by department, then by name.
-
-- [ ] [18] There is an obvious way to close this Details view and return to the Default View.
-
-- [ ] [19] There is an obvious way to have the browser speak the movie title.
-
-- [ ] [20] **All** of the following are either clearly visible or clearly accessible from this page:
-
-    - [ ] release date
-    - [ ] revenue, _**formatted appropriately**_ <= emphasized for a reason, folks
-    - [ ] runtime, _**formatted appropriately**_ <= ditto
-    - [ ] tagline
-    - [ ] IMDB link <= must be working
-    - [ ] TMDB link <= must be working
-    - [ ] overview
-    - [ ] ratings (includes **all** of popularity, average, and count)
-    - [ ] companies
-    - [ ] countries
-    - [ ] keywords
-    - [ ] genres
-
-- [ ] [21] All CSS used in `details.html` that is "yours" is declared valid by the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
-
-- [ ] [22] All HTML in `details.html` is declared valid by the [W3C Markup Validation Service](https://validator.w3.org/).
 
 #### Notes
 
-- _<sup>9</sup> You will need to dig through the different JSON files to piece together the data you need to display on the page. This will be tedious, but it WILL give you a much better idea how the different sources of information you will be using in the final product fit together and how they are structured._
-- _<sup>11</sup> The lightbox effect for the poster is not needed for this milestone - it will be coming later._
-- _<sup>12</sup> The entire cast does not have to be visible all at once. This goes for the crew, too._
-- _<sup>18,19</sup> These don't have to be working yet._
-- _<sup>20</sup> There's a blurb on making working IMDB and TMDB links in item 11 of the [pdf](comp-3512-asg-1-winter-2020-current.pdf)._
-- _Consider where you might put some YouTube video links in your design, as I'm pretty sure that will be a requirement in a later milestone. (see item 14 in the  [pdf](comp-3512-asg-1-winter-2020-current.pdf))._
+- _<sup>3</sup> If you don't know what this means, look at Figure 8.4 (p. 357) in the text, or look it up somewhere. 
+- _<sup>6</sup> CSS validation is no longer a requirement._
 
 ---
 
-### RS2. JavaScript Requirements
+### The `displayDefault` Function
 
-There are a number of TODO items in `movieHelpers.js` Each TODO corresponds to a requirement, which I'll repeat here as well.
+You and I will both find it useful if there is a way to view the Default View, pre-populated with movies. To that end, you must create a function that allows you (and me) to do that from the console.
 
-_Fair warning: the code you write here will also need to change going forward. Don't get too emotionally attached to it. If it helps, remember that when you're coding, you're not just producing code - you're also building experience, which is infinitely more valuable._
+Here are the requirements for this function:
 
-- [ ] [23] An array of movie details, created from `movie-details.json` is present.
+- [ ] It must be called `displayDefault`.
+- [ ] It must have 1 parameter: `numMovies`.
+- [ ] It must be callable from the console.
+- [ ] It must have this behaviour:
+  - [ ] It shows the Default View and hides the other 2 Views.
+  - [ ] If it is called with `numMovies` equal to 0, the Default View shows no movies.
+  - [ ] If it is called with `numMovies` as an integer > 0, the Default View shows `numMovies` randomly-chosen movies. (Look up on how to generate random numbers in JS.)
+  - [ ] If it is called with no argument, the Default View shows exactly these movies:
+  
+    ```
+    1. Aliens
+    2. Alien
+    3. The Thing
+    4. Dark City
+    5. Around the World in 80 Days
+    6. The Prestige
+    7. The Mask of Zorro
+    8. Superman II
+    9. Fast Times at Ridgemont High
+    10. Ted
+    ```
 
-- [ ] [24] An array of credits, created from `credits.json` is present.
+  - [ ] If it is called with any other arguments, I don't care what happens.
 
-- [ ] [25] An array of keywords, created from `keywords.json` is present.
+## Submission Requirements
 
-- [ ] [26] A constructor function called `Movie` is present that has ALL the behaviour described in the associated TODO.
+Since y'all have a ton of flexibility in choosing which events to work on, I need some way for us to easily track what events you've completed so that I can focus on marking those specific things.
 
+To do this, I am requiring groups to use the projects feature of your team's GitHub repo introduced in the [teamwork doc](teamwork.md) when I release milestone 3.
+
+You will see that you have an `events` project in your team's GitHub repo shortly before or after the time I release this current milestone. In it, I've placed all the events that a fully-functioning application requires. _There's a reasonable chance that some additional events may be added, though I think I've got most of the ones we need._
+
+When your team has completed an event, you should move it to the `Done` column in your project. I will use the events I see in that column when I mark.
+
+### Extensions
+
+For this milestone (and likely milestone 5), I will not be accepting any extension requests - when I get around to assessing your team's work, I will assess what's available to me at that time. _I will start marking early in the morning of Thursday, February 10. I'll pick teams at random ( literally - I'll use an online random-number generator) and mark until all teams are marked._
