@@ -2,6 +2,10 @@
 
 More recent questions will be near the top.
 
+#### Q. I'm confused about the whole "there should only be an index.hml now" thing.
+
+> _A. In a single page application, you literally have a single page, almost always called `index.html`. The markup from your previous milestones - the markup for your index.html, default.html, and details.html - can now all go in one file: `index.html`. You'll likely want to place the markup in `<div>s` of some sort, so you can hide/show them easily when the need arises._ 
+
 #### Q. How do I get the movie posters on the default page?
 
 > _A. Take a boo at item 9 in the [assignment pdf](comp-3512-asg-1-winter-2020-current.pdf)._ 
