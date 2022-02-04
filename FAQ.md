@@ -2,6 +2,19 @@
 
 More recent questions will be near the top.
 
+#### Q. If I'm supposed to put all 3 Views in one file (index.html), isn't that going to be a mess? Not to mention the CSS...
+
+> _A. It can definitely be quite ugly. But remember that a lot of the content should be created via JS! How far you take this is up to you: you could wind up having lots of empty div containers that you populate with JS functions. As for the CSS, it can be separated into reasonable files that target a given View, with some common CSS rules  pulled out into a global CSS file._
+
+
+#### Q. How am I supposed to make sure my page serves up the properly-sized images? I don't want to be dinged like I was for milestone 3.
+
+> _A. Just get the browser to do all the work by using an `<img>` tag that uses the `srcset` attribute. There is (as always) an [excellent article on MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes) about this._ 
+
+#### Q. Do I need to use forms?
+
+> _A. Nope. You will for assignment 2, when you need to talk to back-end code...but here? Not necessary. (You could use one if you wanted to change the submit behaviour via JS, but I'm not convinced it would be worth the effort!)_ 
+
 #### Q. I'm confused about the whole "there should only be an index.hml now" thing.
 
 > _A. In a single page application, you literally have a single page, almost always called `index.html`. The markup from your previous milestones - the markup for your index.html, default.html, and details.html - can now all go in one file: `index.html`. You'll likely want to place the markup in `<div>s` of some sort, so you can hide/show them easily when the need arises._ 
