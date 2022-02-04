@@ -9,7 +9,10 @@ More recent questions will be near the top.
 
 #### Q. How am I supposed to make sure my page serves up the properly-sized images? I don't want to be dinged like I was for milestone 3.
 
-> _A. Just get the browser to do all the work by using an `<img>` tag that uses the `srcset` attribute. There is (as always) an [excellent article on MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes) about this._ 
+> _A. Just get the browser to do all the work by using an `<img>` tag that uses the `srcset` attribute. There is (as always) an [excellent article on MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes) about this._
+
+> _Also, we used the `<picture>` tag last semester and it works quite nicely and is a bit easier to use than the method mentioned above: you can find out how to use it on [the picture tag docs on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)._
+
 
 #### Q. Do I need to use forms?
 
