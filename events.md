@@ -12,7 +12,7 @@
   
 - [ ] [HOME.5] When a user chooses to show matching movies, but there is no movie that matches or partially matches the title, the Home View is hidden and the Default View is shown, with a clear indication that no matching movies were found. 
   
-- [ ] [HOME.6] When a user chooses to show matching movies, and one or movies match the title search entry, the Home View is hidden and the Default View is shown, displaying all movies that match in alphabetic title order. 
+- [ ] [HOME.6] When a user chooses to show matching movies, and one or movies match, or partially match, the title search entry, the Home View is hidden and the Default View is shown, displaying all movies that match in alphabetic title order. 
   
 - [ ] [HOME.7] When a user chooses to show favourited movies, no matter what is in the title search box, the Home View is hidden and the Default View is shown with all movies that are stored in local storage. This might be no movies, in which case this is clearly indicated. If there are movies, they are in alphabetic order by title.
 
