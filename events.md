@@ -1,5 +1,11 @@
 # Big List o' Events
 
+## About APIs & Local/Session Storage
+
+Some of the following events refer to something called an **API**. We won't be covering that until week 5, so I'd suggest skipping those events until later...things get a bit weird and just eating copy pasta ain't gonna help you out here.
+
+Some the events refer to **local storage** and **session storage**. This is covered in 10.4.1 of the text. You can find similar information if you look at [MDN's Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) page. These things are actually super-easy to use (and frankly, damn cool), so I think you can tackle events that use them without much difficulty.
+
 ## Home View Events
 
 - [ ] [HOME.1] When a user arrives on this page, the title search box should be empty.
