@@ -2,6 +2,13 @@
 
 More recent questions will be near the top.
 
+#### Q. My `displayDefault` is not doing anything, even though I **swear** it should be doing **something**.
+
+> _A. Would you be trying to use `addEventHandler("DOMContentLoaded")` in that sucker? If so...STOP! Remember, that `displayDefault` is always run from the console...and by the time you're there, pecking away, the **DOM content will ALREADY be loaded!** If you say "hey document, do this when you hear that the DOM is good to go", but the DOM is ALREADY good to go...guess what's going to happen to all the code in your event handler? Yup - it is NOT going to run!_
+>   
+> _As a general rule of thumb, you typically will be using DOMContentLoaded primarily for registering event handlers, because they always need to associate themselves with some DOM element. For other code, be more careful - ask yourself, "when this runs, will it try to do something with the DOM - and will there be a chance the DOM isn't quite ready to go yet?" If the answer is yes, then go ahead and wrap that code in a DOMContentLoaded, but if it's no, then don't do it._
+
+
 #### Q. If I'm supposed to put all 3 Views in one file (index.html), isn't that going to be a mess? Not to mention the CSS...
 
 > _A. It can definitely be quite ugly. But remember that a lot of the content should be created via JS! How far you take this is up to you: you could wind up having lots of empty div containers that you populate with JS functions. As for the CSS, it can be separated into reasonable files that target a given View, with some common CSS rules  pulled out into a global CSS file._
