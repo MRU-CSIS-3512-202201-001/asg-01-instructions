@@ -118,7 +118,7 @@ Some the events refer to **local storage** and **session storage**. This is cove
 
 - [ ] [DETAILS.6] When a user clicks on the TMDB link, the page of the movie opens in TMDB in a new browser window.
 
-- [ ] [DETAILS.7] When a user clicks on the poster, a larger (w500 @ mobile L, w780 @ laptop L) version of the poster is displayed in a pop-up modal.
+- [ ] [DETAILS.7] When a user clicks on the poster, a larger (w500 @ mobile L, w780 @ laptop L) version of the poster is displayed in a pop-up modal. (_Edit [2022-02-08]: you can skip the mobile modal, or make it smaller than w500._)
 
 - [ ] [DETAILS.8] When a user wishes to view Cast information for the movie, this is possible.
 

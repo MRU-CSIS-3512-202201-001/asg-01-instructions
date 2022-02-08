@@ -2,6 +2,11 @@
 
 More recent questions will be near the top.
 
+#### Q. The 500px width specified for a mobile poster modal (DETAILS.7) is too big for mobile L size!
+
+> _A. Well, huh. You're right! Life's too short - just do the mobile for the laptop size. (Or if you really want to do a mobile one as well, scale the size down to a reasonable width)._
+
+
 #### Q. If I call `displayDefault(5)` twice in a row (for example), do you want to show 5 movies? Or 10? And is it OK if sometimes duplicate movies show up - I think my random is a _bit_ broken.
 
 > _A. Each time you call `displayDefault`, it should remove the current list of movies and start fresh. So 2 calls to `displayDefault(5)` would just show 5 movies. And if your random is a bit busted, you're not going to lose any marks - the purpose of `displayDefault` is for me and you to have a convenient way to populate the Default View._
