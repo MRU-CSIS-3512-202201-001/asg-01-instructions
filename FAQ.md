@@ -2,6 +2,12 @@
 
 More recent questions will be near the top.
 
+#### Q. If I call `displayDefault(5)` twice in a row (for example), do you want to show 5 movies? Or 10? And is it OK if sometimes duplicate movies show up - I think my random is a _bit_ broken.
+
+> _A. Each time you call `displayDefault`, it should remove the current list of movies and start fresh. So 2 calls to `displayDefault(5)` would just show 5 movies. And if your random is a bit busted, you're not going to lose any marks - the purpose of `displayDefault` is for me and you to have a convenient way to populate the Default View._
+
+
+
 #### Q. My `displayDefault` is not doing anything, even though I **swear** it should be doing **something**.
 
 > _A. Would you be trying to use `addEventHandler("DOMContentLoaded")` in that sucker? If so...STOP! Remember, that `displayDefault` is always run from the console...and by the time you're there, pecking away, the **DOM content will ALREADY be loaded!** If you say "hey document, do this when you hear that the DOM is good to go", but the DOM is ALREADY good to go...guess what's going to happen to all the code in your event handler? Yup - it is NOT going to run!_
