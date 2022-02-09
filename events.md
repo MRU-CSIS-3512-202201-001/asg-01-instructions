@@ -124,7 +124,6 @@ Some the events refer to **local storage** and **session storage**. This is cove
 
 - [ ] [DETAILS.9] When a user wishes to view Crew information for the movie, this is possible.
 
-- [ ] [DETAILS.10] When a user clicks on the header, the Details View is hidden and the Home View becomes visible.
 
 ### Notes
 
