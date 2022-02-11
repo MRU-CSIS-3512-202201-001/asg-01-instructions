@@ -2,6 +2,11 @@
 
 More recent questions will be near the top.
 
+#### Q. Is the title search (on the Main View) looking for matches at the start of the title? Or ANYWHERE in the title?
+
+> _A. Anywhere in the title (and of course, case insensitive)._
+
+
 #### Q. Do the IMDB and TMDB links have to open up a new window? Or is a new tab enough?
 
 > _A. Either is fine._
