@@ -1,4 +1,4 @@
-# Assignment 01 - Milestone 05 (WIP)
+# Assignment 01 - Milestone 05
 
 **Due February 16 (W) @ 9 PM**
 
@@ -20,11 +20,12 @@ You don't want those things to creep up on you.
 
 Same idea as milestone 4.  
 
-When the ladder below mentions events, it's talking about events you haven't completed from milestone 4 - it's talking about additional events you have completed since your milestone 4 submission.
+When the ladder below mentions events, it's talking about events you haven't completed from milestone 4. That can mean either events you didn't attempt for milestone 4 OR it can mean events you thought you had completed, but I said, "um...sorry, unfortunately you didn't".
 
 ### The Ladder of Marks
+
 | What You've Done          | Grade Level | Corresponding % |
-| ------------------------- | :---------: | :-------------: |
+|---------------------------|:-----------:|:---------------:|
 | RS0 incomplete            |   Level 0   |       0%        |
 | ---                       |     ---     |       ---       |
 | RS0 + fewer than 5 events |   Level 3   |       65%       |
@@ -32,6 +33,8 @@ When the ladder below mentions events, it's talking about events you haven't com
 | RS0 + 10 events           |   Level 5   |       88%       |
 | RS0 + 15 events           |   Level 6   |       98%       |
 
+
+_You might notice things have relaxed a bit here; this is a conscious move on yours truly to give you some breathing room for the upcoming quizzes._
 
 ---
 

@@ -2,6 +2,10 @@
 
 More recent questions will be near the top.
 
+#### Q. Do the IMDB and TMDB links have to open up a new window? Or is a new tab enough?
+
+> _A. Either is fine._
+
 #### Q. The 500px width specified for a mobile poster modal (DETAILS.7) is too big for mobile L size!
 
 > _A. Well, huh. You're right! Life's too short - just do the mobile for the laptop size. (Or if you really want to do a mobile one as well, scale the size down to a reasonable width)._
