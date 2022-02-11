@@ -51,6 +51,11 @@ No comment.
 - [ ] [5] The `innerHTML` property is not used in any of your JS files.
 
 - [ ] [6] All HTML in `index.html` is declared valid by the [W3C Markup Validation Service](https://validator.w3.org/).
+  
+- [ ] [7] No alerts are used. 
+
+
+_<sup>7</sup>Because they're amazingly annoying._
 
 ---
 
