@@ -61,11 +61,11 @@ _Now that I've gone through an initial marking experience with people implementi
 
     _Same warning as with HOME.4._
 
+- [ ] [HOME.9.NEW] After initiating a title search, a loading animation is visible until the movie list is ready to be populated. 
 
 ### Notes
 
 - _<sup>1</sup> You don't have to worry about the user coming back to this page through use of the browser's Back button._
-- _<sup>2,3</sup> These can be put on hold until we cover API consumption in week 05 of the course._
 - _<sup>2</sup> If you have the labs, lab exercise 10-6 covers this. If not, you have some digging to do!_
 - _<sup>5,6</sup> Behind the scenes, movie objects matching the title search term must be stored in the browser's session storage._
 
@@ -148,7 +148,7 @@ _Now that I've gone through an initial marking experience with people implementi
 
 - [ ] [DEFAULT.29] When a user chooses to sort the visible movies in descending order by rating, all movies present (whether currently in view or not) are sorted in descending rating order.
 
-- [ ] [DEFAULT.30] When a user chooses to view the details on a movie by clicking on its poster or title, the Default View is hidden and the chosen movie is shown in the Details View.
+- [ ] [DEFAULT.30.EDITED] When a user chooses to view the details on a movie by clicking on its poster or title, the Default View is hidden and the chosen movie is shown in the Details View. **This is accomplished through event delegation.**
     
 - [ ] [DEFAULT.31] When a user clicks on the header, the Default View is hidden and the Home View becomes visible.
 
