@@ -4,6 +4,20 @@
 
 **Worth 9% of your final grade**
 
+
+## API Hints
+
+_I'm assuming you've read the [Using the TMDB API](tmdb-api.md) doc before reading this._
+
+Title searches on the Home View will be querying one of the TMDB API endpoints, returning a number of titles that partially match the search term, along with some further information about each match. You need to find out which endpoint to talk to and examine the data that comes back from that endpoint. You'll find the data contains some very useful information needed later on.
+
+The results you get back are just for 1 "page" of 20 results and while a search might return many pages, you are only expected to use the first page.
+
+For each of the matching movie results, you'll need to construct the associated movie - your Movie constructor function will come in handy here and may need some modification. To get the different parts that make up a movie - details, credits, and keywords - you'll need to make additional API calls. (_Hint: using `Promise.all()` makes quite a bit of sense for this part, since you need to do 3 API calls to make a single Movie...._)
+
+Once you've created a Movie object, you'll want to store it in session storage, so that it's available for all the displaying and filtering that happens in the other views. You can either store each individual movie as a key/value pair, or store a single array that contains all the movies - your call. If you decide to store each movie individually, choose your key wisely!
+
+
 ## Your Mark
 
 We need to change a bit yet again. 
@@ -17,7 +31,7 @@ Each category has a weighting: functionality is 50%, visual design is 30%, and c
 #### Functionality Ladder (40%)
 
 | What You've Done | Grade Level | Corresponding % |
-| ---------------- | :---------: | :-------------: |
+|------------------|:-----------:|:---------------:|
 | RS0 incomplete   |   Level 0   |       0%        |
 | Unacceptable     |   Level 2   |       55%       |
 | Fair             |   Level 3   |       65%       |
@@ -31,7 +45,7 @@ Each category has a weighting: functionality is 50%, visual design is 30%, and c
 #### Visual Design Competency Ladder (30%)
 
 | What You've Done | Grade Level | Corresponding % |
-| ---------------- | :---------: | :-------------: |
+|------------------|:-----------:|:---------------:|
 | Unacceptable     |   Level 2   |       55%       |
 | Fair             |   Level 3   |       65%       |
 | Good             |   Level 4   |       75%       |
@@ -43,7 +57,7 @@ Each category has a weighting: functionality is 50%, visual design is 30%, and c
 #### Coding Competency Ladder (20%)
 
 | What You've Done | Grade Level | Corresponding % |
-| ---------------- | :---------: | :-------------: |
+|------------------|:-----------:|:---------------:|
 | Unacceptable     |   Level 2   |       55%       |
 | Fair             |   Level 3   |       65%       |
 | Good             |   Level 4   |       75%       |
@@ -75,9 +89,14 @@ If your team misses any of these, I'll let you fix up to 3 of them. If you miss 
 
 - [ ] [7] The `async` and `await` keywords are not used anywhere in your JS files.
 
+- [ ] [8] A `populateFavourites()` method is available from the console.
+
+- [ ] [9] Titles are not used as keys in local/session storage.
+
 
 _<sup>6</sup>Because they're amazingly annoying._  
-_<sup>7</sup>Because you need to show competence with basics of asynchronous coding._
+_<sup>7</sup>Because you need to show competence with basics of asynchronous coding._  
+_<sup>9</sup>See https://www.digitalspy.com/movies/a850564/movies-with-same-name/_
 
 
 ### Functionality
@@ -105,6 +124,10 @@ In order to achieve the top level of functionality assessment, you not only need
 - [ ] all aspects of fundamental functionality (searching, filtering, favouriting, information display) are fully working
 - [ ] there are numerous examples of attention to detail (for example, allowing the Enter key to initiate a search, clearing a filter entry when a related filter entry is entered, etc.)
 
+#### Excellent+ 
+
+- [ ] infinite? multi-filters?
+
 ---
 
 ### Coding Craftsmanship
@@ -112,6 +135,19 @@ In order to achieve the top level of functionality assessment, you not only need
 - Do you use appropriate array methods, or recreate the wheel?
 - Are unneeded files removed from your repository? (For example, if you use the API for your source of data, have your removed the JSON data files used from the earlier milestones?)
 - [ ] [8] No errors are present in the console. This means the favicon one as well.
+- [ ] eslint
+- [ ] code complexity (tool)
+- [ ] 
+
+#### Unacceptable Craftsmanship
+
+#### Acceptable Craftsmanship
+
+#### Excellent Craftsmanship
+
+#### Excellent+ 
+
+- [ ] classes?
 
 ---
 
@@ -137,3 +173,6 @@ It's important that your site has a unified visual "feel". Using the Home View f
 
 - [ ] The overall impression of the Views is "wow" - they deviate frequently and thoughtfully from the illustrations shown in the pdf and give the impression that the visual design was a focus of attention. It's difficult, if not impossible, to find issue with the Views and any such issues are likely quibbles. You would show this to a potential employer or client with no hesitation whatsoever.
 
+#### Excellent+ 
+
+- [ ] test subject wowed
