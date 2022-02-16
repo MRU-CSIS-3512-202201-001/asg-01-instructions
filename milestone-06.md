@@ -4,6 +4,10 @@
 
 **Worth 9% of your final grade**
 
+## The Final Version of the PDF
+
+The [final version of the pdf](comp-3512-asg-1-winter-2020-v3.pdf) is now available. Make sure you read it.
+
 
 ## API Hints
 
