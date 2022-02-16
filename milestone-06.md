@@ -1,4 +1,4 @@
-# Assignment 01 - Milestone 06  (WIP)
+# Assignment 01 - Milestone 06
 
 **Due March 02 (W) @ 9 PM**
 
@@ -183,8 +183,9 @@ See the last page of the [final version of the pdf](comp-3512-asg-1-winter-2020-
 
 This is a bit vague, but it kinda has to be. This category is meant to capture the big question: How easy is it to understand this codebase?
 
-Things I'm looking for, in no particular order of importance:
+Some examples of things I'm looking for, in no particular order of importance:
 
+- [ ] Are variables named expressively or are they vague (or even worse, telling lies?).
 - [ ] Do you use appropriate array methods, or recreate the wheel?
 - [ ] Are unneeded files removed from your repository? (For example, if you use the API for your source of data, have your removed the JSON data files used from the earlier milestones?)
 - [ ] Is the console free from error messages? This means the favicon message as well.
@@ -195,14 +196,21 @@ Things I'm looking for, in no particular order of importance:
 - [ ] Are tricky things documented?
 - [ ] Are things not yours documented?
 - [ ] Do you take the time to improve code borrowed from them web by improving names, removing outdated techniques, and following other good practices? Or are things just copy-pasta'd in as-is?
+- [ ] Are the various script files well-named? Do they contain reasonable things? Are they smallish?
+
+Additional guidelines can be found in the [design guidelines doc](design-guidelines.md). 
 
 #### Unacceptable Craftsmanship
 
-
+The codebase is hard to understand and gives the impression it's largely stitched together with numerous sources copy-pasted from online sources. The guidelines provided above are largely ignored.
 
 #### Acceptable Craftsmanship
 
+The codebase is reasonably easy to understand, although there are some violations of guidelines.
+
 #### Excellent Craftsmanship
+
+The codebase is expressive throughout and guideline violations are rare or not present.
 
 #### Excellent+ 
 
