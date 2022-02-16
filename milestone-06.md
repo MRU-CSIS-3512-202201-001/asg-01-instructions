@@ -35,6 +35,7 @@ Each category has a weighting: Functionality is 50%, Visual Design is 30%, and C
 | What You've Done | Grade Level | Corresponding % |
 |------------------|:-----------:|:---------------:|
 | RS0 incomplete   |   Level 0   |       0%        |
+| ---              |     ---     |       ---       |
 | Unacceptable     |   Level 2   |       55%       |
 | Fair             |   Level 3   |       65%       |
 | Good             |   Level 4   |       75%       |
@@ -61,8 +62,7 @@ Each category has a weighting: Functionality is 50%, Visual Design is 30%, and C
 | What You've Done | Grade Level | Corresponding % |
 |------------------|:-----------:|:---------------:|
 | Unacceptable     |   Level 2   |       55%       |
-| Fair             |   Level 3   |       65%       |
-| Good             |   Level 4   |       75%       |
+| Acceptable       |   Level 4   |       75%       |
 | Excellent        |   Level 5   |       88%       |
 | Excellent+       |   Level 6   |       98%       |
 
@@ -110,12 +110,13 @@ Here are the requirements for this function:
 - [ ] It must be called `populateFavourites`.
 - [ ] It doesn't take any parameters.
 - [ ] It must be callable from the console.
-- [ ] It must have this behaviour:
-  - [ ] It clears local storage.
+- [ ] It must have these behaviours:
+  - [ ] It first clears local storage, then
   - [ ] It populates local storage with the 10 movies I had given you for `displayDefault` in milestone 4.
 
 That's it. It's not a lot of code.
 
+---
 
 ### Functionality
 
@@ -150,7 +151,7 @@ See the last page of the [final version of the pdf](comp-3512-asg-1-winter-2020-
 
 ---
 
-### Visual Design Craftsmanship
+### Visual Design
 
 The visual design of all Views will be evaluated at **both** Mobile L and Laptop L size in a Chrome browser. 
 
@@ -180,20 +181,24 @@ See the last page of the [final version of the pdf](comp-3512-asg-1-winter-2020-
 
 ### Coding Craftsmanship
 
-- Do you use appropriate array methods, or recreate the wheel?
-- Are unneeded files removed from your repository? (For example, if you use the API for your source of data, have your removed the JSON data files used from the earlier milestones?)
-- [ ] [8] No errors are present in the console. This means the favicon one as well.
-- [ ] eslint
-- [ ] code complexity (tool)
-- [ ] globals
-- [ ] fors
-- [ ] no errors in console.log
-- [ ] are functions plentiful, expressively named, and short? (remember, I'm a big fan of naming value-returning functions and non-returning functions in very specific ways)
-- [ ] are tricky things documented?
-- [ ] are things not yours documented?
-- [ ] do you just copy-pasta things in off the web, or do you take the time to name them well, remove outdated techniques, and follow other good practices?
+This is a bit vague, but it kinda has to be. This category is meant to capture the big question: How easy is it to understand this codebase?
+
+Things I'm looking for, in no particular order of importance:
+
+- [ ] Do you use appropriate array methods, or recreate the wheel?
+- [ ] Are unneeded files removed from your repository? (For example, if you use the API for your source of data, have your removed the JSON data files used from the earlier milestones?)
+- [ ] Is the console free from error messages? This means the favicon message as well.
+- [ ] Is Eslint happy - or barking about scads of things?
+- [ ] Are global variables kept to a minimum - or are they flying all over the place?
+- [ ] Are for..of and forEach used? Or noisy old-school fors?
+- [ ] Are functions plentiful, expressively named, and short? (remember, I'm a big fan of naming value-returning functions and non-returning functions in very specific ways)
+- [ ] Are tricky things documented?
+- [ ] Are things not yours documented?
+- [ ] Do you take the time to improve code borrowed from them web by improving names, removing outdated techniques, and following other good practices? Or are things just copy-pasta'd in as-is?
 
 #### Unacceptable Craftsmanship
+
+
 
 #### Acceptable Craftsmanship
 
