@@ -8,6 +8,17 @@
 
 The [final version of the pdf](comp-3512-asg-1-winter-2020-v3.pdf) is now available. Make sure you read it.
 
+## The Final Events
+
+I think [the events](events.md) are where they need to be now. (_Definitely_ famous last words.)
+
+- Any event that has the word `EDITED` in it should replace its previous version; for example, `HOME.7.EDITED` should replace `HOME.7`.
+
+- Any event that has the word `NEW` in it is an additional event for you to take care of.
+
+Unlike milestones 4 and 5, I will no longer be looking at your project board to figure out what events to test - I'll be testing anything and everything! This means you don't need to update the project boards if you don't wish to. (Nevertheless, I hope at least some of you found them useful!)
+
+If you wish to continue using the project boards, please get the event modifications and additions into your boards yourselves; there are only a handful of cards, so it won't take long at all.
 
 ## API Hints
 
