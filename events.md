@@ -158,6 +158,10 @@ _Now that I've gone through an initial marking experience with people implementi
 
 - [ ] [DEFAULT.33] When a user unfavourites a movie, there is a clear indication that this has happened.
 
+- [ ] [DEFAULT.34.NEW] When a user clears the filters, the movies present when the user originally arrived on this View are all showing.
+
+    _In other words, when your remove filters, you get the movies you started with!_
+
 ### Notes
 
 - _<sup>15-20</sup> We will consider "rating" to be equal to the vote_average value in the movie details._
