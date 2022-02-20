@@ -116,9 +116,9 @@ _Now that I've gone through an initial marking experience with people implementi
 
 - [ ] [DEFAULT.16] When a user chooses to apply a "below rating" filter, if this returns results, those results are displayed in alphabetic order by title on this page.
 
-- [ ] [DEFAULT.17] When a user chooses to apply a "under rating" filter, if this returns no results, that is clearly indicated to the user on this page.
+- [ ] [DEFAULT.17] When a user chooses to apply a "above rating" filter, if this returns no results, that is clearly indicated to the user on this page.
 
-- [ ] [DEFAULT.18] When a user chooses to apply a "under rating" filter, if this returns results, those results are displayed in alphabetic order by title on this page.
+- [ ] [DEFAULT.18] When a user chooses to apply a "above rating" filter, if this returns results, those results are displayed in alphabetic order by title on this page.
 
 - [ ] [DEFAULT.19] When a user chooses to apply a "between rating" filter, if this returns no results, that is clearly indicated to the user on this page.
 
