@@ -45,10 +45,10 @@ Each category has a weighting: Functionality is 50%, Visual Design is 30%, and C
 
 ### The Ladders of Marks
 
-#### Functionality Ladder (40%)
+#### Functionality Ladder (50%)
 
 | What You've Done | Grade Level | Corresponding % |
-|------------------|:-----------:|:---------------:|
+| ---------------- | :---------: | :-------------: |
 | RS0 incomplete   |   Level 0   |       0%        |
 | ---              |     ---     |       ---       |
 | Unacceptable     |   Level 2   |       55%       |
@@ -63,7 +63,7 @@ Each category has a weighting: Functionality is 50%, Visual Design is 30%, and C
 #### Visual Design Ladder (30%)
 
 | What You've Done | Grade Level | Corresponding % |
-|------------------|:-----------:|:---------------:|
+| ---------------- | :---------: | :-------------: |
 | Unacceptable     |   Level 2   |       55%       |
 | Fair             |   Level 3   |       65%       |
 | Good             |   Level 4   |       75%       |
@@ -75,7 +75,7 @@ Each category has a weighting: Functionality is 50%, Visual Design is 30%, and C
 #### Coding Craftsmanship Ladder (20%)
 
 | What You've Done | Grade Level | Corresponding % |
-|------------------|:-----------:|:---------------:|
+| ---------------- | :---------: | :-------------: |
 | Unacceptable     |   Level 2   |       55%       |
 | Acceptable       |   Level 4   |       75%       |
 | Excellent        |   Level 5   |       88%       |
