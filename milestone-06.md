@@ -143,7 +143,7 @@ In order to achieve the top level of functionality assessment, you not only need
 
 If any of the following are true, the application will be considered to have **unacceptable functionality**:
 
-- [ ] the application still uses the JSON data files as its source of movie data
+- [ ] the application still uses the JSON data files as its source of movie data. (Edit 2022-02-24: you **can** use JSON files to implement the `populateFavouries` functionality without penalty - but in that case, create your OWN JSON files for that purpose.)
 - [ ] one or more aspects of fundamental functionality (searching, filtering, favouriting, information display) is missing
 - [ ] three or more aspects of fundamental functionality (searching, filtering, favouriting, information display) are only partially working
 

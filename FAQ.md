@@ -2,6 +2,11 @@
 
 More recent questions will be near the top.
 
+#### Q. Can we use JSON files to implement `populateFavourites`?
+
+> _A. Sure - `populateFavourites` is just used to make my (and your) testing life easier. If you are going that route, please make your own JSON file for this purpose and make sure to remove the other ones we've been using if you want full marks._ 
+
+
 #### Q. When I use `JSON.stringify` on my movie objects (so I can put them into local or session storage), they're showing as `{}`. What's going on?!?
 
 > _A. When you JSON.stringify an object, its methods are NOT included in the process. Your original Movie constructor function made movie objects that had properties that were mostly/all methods! So when you JSON.stringify THOSE suckers, you get nothing useful. You'll need to change your constructor function so that the properties you're interested in are not methods._
