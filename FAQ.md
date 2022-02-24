@@ -2,6 +2,34 @@
 
 More recent questions will be near the top.
 
+#### Q. When I use `JSON.stringify` on my movie objects (so I can put them into local or session storage), they're showing as `{}`. What's going on?!?
+
+> _A. When you JSON.stringify an object, its methods are NOT included in the process. Your original Movie constructor function made movie objects that had properties that were mostly/all methods! So when you JSON.stringify THOSE suckers, you get nothing useful. You'll need to change your constructor function so that the properties you're interested in are not methods._
+> 
+> _That's probably a bit confusing, so here's an example:_
+
+```js
+
+// previously, you have something like...
+function Movie(movieID) {
+    this.title = function() {
+        return this.movie.title; // or something like that
+    }
+    this.cast = function() {
+        return this.credits.cast;
+    }
+    // etc
+}
+
+// now, you want something like...
+function Movie(??? what goes here now???) {
+    this.title = this.movie.title;
+    this.cast = this.credits.cast;
+    // etc.
+}
+
+```
+
 
 #### Q. Do I need to use the API for milestone 5?
 
